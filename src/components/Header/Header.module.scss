@@ -30,3 +30,14 @@
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .headerWrapper {
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-bottom: 16px;
+  }
+}

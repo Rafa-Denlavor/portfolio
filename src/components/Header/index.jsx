@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.headerWrapper}>
       <img
-        src="logo.png"
+        src="images/logo.png"
         alt="Logo Denlavor"
         title="Logo Denlavor"
         className={styles.logo}

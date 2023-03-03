@@ -19,7 +19,7 @@ const Books = () => {
             <p>
               Perdi-me em planos para aprimorar minhas habilidades, o que causou
               o fim deste mesmo livro e deu início ao segundo: Minha Frentista
-              de Cada Dia, que hoje conta com mais de 42 mil leituras. Em
+              de Cada Dia, que hoje conta com mais de 48 mil leituras. Em
               seguida, entrei de cabeça na escrita criativa.
             </p>
             <p>
@@ -33,21 +33,21 @@ const Books = () => {
           />
         </article>
         <figure className={styles.booksBox}>
-          <img
-            src="minha-frentista.jpg"
-            alt="Livro do Wattpad, Minha Frentista de Cada dia"
-            className={styles.bookCover}
-          />
-          <img
-            src="varas-&-cadernos.jpg"
-            alt="Livro do Wattpad, Varas e Cadernos"
-            className={styles.bookCover}
-          />
-          <img
-            src="amnesia-com.jpg"
-            alt="Livro do Wattpad, Amnésia.com"
-            className={styles.bookCover}
-          />
+            <img
+              src="images/minha-frentista.jpg"
+              alt="Livro do Wattpad, Minha Frentista de Cada dia"
+              className={styles.bookCover}
+            />
+            <img
+              src="images/varas-&-cadernos.jpg"
+              alt="Livro do Wattpad, Varas e Cadernos"
+              className={styles.bookCover}
+            />
+            <img
+              src="images/amnesia-com.jpg"
+              alt="Livro do Wattpad, Amnésia.com"
+              className={styles.bookCover}
+            />
         </figure>
       </main>
       <BackToTop href="#services" />

@@ -1,13 +1,11 @@
 a {
   scroll-behavior: smooth;
-  
+
   .arrow {
     width: 27px;
     animation: arrow 2s ease-in-out infinite;
   }
 }
-
-
 
 @keyframes arrow {
   0% {

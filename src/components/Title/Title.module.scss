@@ -1,23 +1,23 @@
 .title {
-    align-self: flex-start;
-    font-size: 30px;
-    background-color: var(--primary-color);
-    padding: 8px 32px;
-    text-transform: uppercase;
-    margin-bottom: 64px;
-    color: var(--secondary-color);
-    border-bottom-right-radius: 20px;
-    // animation: showTitle 6s alternate;
-    width: 220px;
+  align-self: flex-start;
+  font-size: 30px;
+  background-color: var(--primary-color);
+  padding: 8px 32px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  color: var(--secondary-color);
+  border-bottom-right-radius: 20px;
+  // animation: showTitle 6s alternate;
+  width: 220px;
 }
 
 @keyframes showTitle {
-    0% {
-        width: 0;
-        padding: 0;
-    }
+  0% {
+    width: 0;
+    padding: 0;
+  }
 
-    100% {
-        max-width: 100%; 
-    }
+  100% {
+    max-width: 100%;
+  }
 }

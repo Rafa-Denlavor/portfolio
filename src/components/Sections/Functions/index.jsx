@@ -8,15 +8,15 @@ const Functions = () => {
       <h1 className={styles.title}>3 em 1</h1>
       <div className={styles.containerPositions}>
         <figure className={styles.positions}>
-          <img src="writer.svg" alt="" />
+          <img src="images/writer.svg" alt="" />
           <figcaption>UX Writer | Escritora</figcaption>
         </figure>
         <figure className={styles.positions}>
-          <img src="developer.svg" alt="" />
+          <img src="images/developer.svg" alt="" />
           <figcaption>Javascript Developer</figcaption>
         </figure>
         <figure className={styles.positions}>
-          <img src="software-engineer.svg" alt="" />
+          <img src="images/software-engineer.svg" alt="" />
           <figcaption>Software Engineer</figcaption>
         </figure>
       </div>
