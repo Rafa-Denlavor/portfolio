@@ -33,7 +33,7 @@ const Projects = () => {
           technologies={["JAVASCRIPT", "TYPESCRIPT", "REACT", "CSS"]}
           projectName="Pokédex"
           description="Pokeagenda para visualizar a 1° geração de Pokemon."
-          websiteHref="https://rafa-denlavor-pokedex.bohr.io/"
+          websiteHref="https://pokedex-denlavor.bohr.io/"
           githubHref="https://github.com/Rafa-Denlavor/pokedex"
           />
       </div>
