@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
+@import url("./variables.module.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+p,
+span {
+  color: var(--text-default);
+}
+
+p,
+a,
+span {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+  color: var(--gray-50);
+  font-size: 24px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 100px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
