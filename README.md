@@ -1,4 +1,4 @@
-# Meu Portfólio
+# Portfolio
 
 Bem-vindo ao meu portfólio! Aqui você encontrará uma amostra dos meus projetos, habilidades e experiência. Fique à vontade para explorar e entrar em contato comigo se tiver alguma dúvida ou oportunidade de colaboração.
 
