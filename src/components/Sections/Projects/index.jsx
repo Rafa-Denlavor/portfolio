@@ -9,14 +9,21 @@ const Projects = () => {
       <Title name="Projetos" />
       <div className={styles.projectsCard}>
         <Card
-          technologies={["Nextjs", "Reactjs", "SASS"]}
+          technologies={["Next.js", "Reac.tjs", "SASS", "Vercel", "Google Analytics"]}
           projectName="Polarizeme"
           description="Aplicação web fascinante e interativa que permite que você transforme suas fotos comuns em belas imagens estilo polaroid."
           websiteHref="https://www.polarizeme.com.br/"
           githubHref="https://github.com/Rafa-Denlavor/polarizeme"
         />
         <Card
-          technologies={["JAVASCRIPT", "TYPESCRIPT", "REACT", "CSS"]}
+          technologies={["Next.js", "React.js", "SASS", "Vercel", "Google Analytics"]}
+          projectName="Saúde Alimentos"
+          description="Aplicação web para o restaurante Saúde Alimentos que valoriza a saúde e o sabor. O meso está localizado na cidade de São Vicente no Estado de São Paulo."
+          websiteHref="https://saude-alimentos.vercel.app"
+          githubHref="https://github.com/Rafa-Denlavor/saude-alimentos"
+        />
+        <Card
+          technologies={["JAVASCRIPT", "TYPESCRIPT", "react.js", "CSS", "Bohr.io"]}
           projectName="Pokédex"
           description="Pokeagenda para visualizar a 1° geração de Pokemon."
           websiteHref="https://pokedex-denlavor.bohr.io/"
