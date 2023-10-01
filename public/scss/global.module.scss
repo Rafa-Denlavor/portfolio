@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
 @import url("./variables.module.scss");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  font-size: 62.5%;
 }
 
 p,
@@ -15,8 +17,15 @@ span {
 
 p,
 a,
-span {
-  font-size: 16px;
+span,
+input,
+textarea {
+  font-size: 1.6rem;
+}
+
+label,
+button {
+  font-size: 1.8rem;
 }
 
 h1,
