@@ -19,8 +19,10 @@ const Card = ({
           );
         })}
       </div>
-      <h2>{projectName}</h2>
-      <p className={styles.description}>{description}</p>
+      <div>
+        <h2>{projectName}</h2>
+        <p className={styles.description}>{description}</p>
+      </div>
       <div>
         <Link
           icon="fas fa-external-link-alt"

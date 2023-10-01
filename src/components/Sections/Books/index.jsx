@@ -9,10 +9,10 @@ const Books = () => {
       <Title name="Livros" />
       <main className={styles.trajectory}>
         <article className={styles.careerInfo}>
-          <h2>Carreira</h2>
+          <h2>Hobby</h2>
           <div className={styles.description}>
             <p>
-              Extasiei-me com a possibilidade de redigir histórias no dia 5 de
+              Descobri a possibilidade de redigir histórias no dia 5 de
               julho de 2018, aos meus 15 anos, quando produzi e publiquei o meu
               primeiro livro no Wattpad: The New Patient.
             </p>
@@ -24,7 +24,7 @@ const Books = () => {
             </p>
             <p>
               Atualmente sou escritora freelancer com 4 anos de experiência e
-              ofereço diversos serviços referente a escrita criativa.
+              ofereço diversos serviços referente a escrita criativa, no entanto, sou apaixonada pela programação e uni o melhor dos dois mundos.
             </p>
           </div>
           <Link

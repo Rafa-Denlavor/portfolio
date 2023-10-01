@@ -10,7 +10,7 @@ const Projects = () => {
       <div className={styles.projectsCard}>
         <Card
           technologies={["Next.js", "Reac.tjs", "SASS", "Vercel", "Google Analytics"]}
-          projectName="Polarizeme"
+          projectName="PolarizeMe"
           description="Aplicação web fascinante e interativa que permite que você transforme suas fotos comuns em belas imagens estilo polaroid."
           websiteHref="https://www.polarizeme.com.br/"
           githubHref="https://github.com/Rafa-Denlavor/polarizeme"
@@ -22,10 +22,11 @@ const Projects = () => {
           websiteHref="https://saude-alimentos.vercel.app"
           githubHref="https://github.com/Rafa-Denlavor/saude-alimentos"
         />
-        <Card
+        {/*
+         <Card
           technologies={["JAVASCRIPT", "TYPESCRIPT", "react.js", "CSS", "Bohr.io"]}
           projectName="Pokédex"
-          description="Pokeagenda para visualizar a 1° geração de Pokemon."
+          description="Pokeagenda para pesquisar, listar e visualizar a 1° geração de Pokemon. "
           websiteHref="https://pokedex-denlavor.bohr.io/"
           githubHref="https://github.com/Rafa-Denlavor/pokedex"
         />
@@ -50,6 +51,7 @@ const Projects = () => {
           websiteHref="https://rafa-denlavor.github.io/nutrion/"
           githubHref="https://github.com/Rafa-Denlavor/nutrion"
         />
+     */}
       </div>
       <BackToTop href="#books" />
     </section>
