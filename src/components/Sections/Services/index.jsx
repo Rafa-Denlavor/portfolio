@@ -8,25 +8,43 @@ const Services = () => {
       <Title name="Serviços" />
       <main className={styles.cards}>
         <article className={styles.service}>
-          <img src="images/website.png" alt="" />
-          <h2>Websites</h2>
+          <img src="images/web-development.svg" alt="" />
+          <h2>Desenvolvimento Web</h2>
           <p>
-            Desenvolvimento de sites web, mobile, desktop's, sistemas e blogs
-            responsivos.
+            Este serviço abrange desde a criação de websites informativos e
+            institucionais até a criação de blogs, portfólios online, páginas de
+            destino e lojas virtuais (e-commerce).
           </p>
         </article>
         <article className={styles.service}>
-          <img src="images/inkwell.png" alt="" />
+          <img src="images/web-applications.svg" alt="" />
+          <h2>Aplicações Web</h2>
+          <p>
+            Este serviço envolve o desenvolvimento de aplicativos web sob
+            medida, incluindo funcionalidades avançadas de interação,
+            gerenciamento de usuários, manipulação de dados em tempo real,
+            integração com APIs externas, entre outros.
+          </p>
+        </article>
+        <article className={styles.service}>
+          <img src="images/software-development.svg" alt="" />
+          <h2>Desenvolvimento de Software</h2>
+          <p>
+            Este serviço abrange o ciclo completo de desenvolvimento de
+            software, desde a concepção e análise de requisitos até o design,
+            implementação, teste e manutenção de aplicativos de software
+            personalizados, como ERP e CRM.
+          </p>
+        </article>
+        <article className={styles.service}>
+          <img src="images/creative-writing.svg" alt="" />
           <h2>Escrita Criativa</h2>
           <p>
-            Cria-se sinopses, roteiros, histórias, biografias, redações, entre
-            outros.
+            Este serviço abrange o ciclo completo de desenvolvimento de
+            software, desde a concepção e análise de requisitos até o design,
+            implementação, teste e manutenção de aplicativos de software
+            personalizados, como ERP e CRM.
           </p>
-        </article>
-        <article className={styles.service}>
-          <img src="images/writing.png" alt="" />
-          <h2>Revisão Ortográfica</h2>
-          <p>Revisão ortográfica completa de acordo com as normas ABNT.</p>
         </article>
       </main>
       <BackToTop href="#functions" customClass={styles.backToTop} />
