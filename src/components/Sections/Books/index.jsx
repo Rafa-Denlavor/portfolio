@@ -9,7 +9,7 @@ const Books = () => {
       <Title name="Livros" />
       <main className={styles.trajectory}>
         <article className={styles.careerInfo}>
-          <h2>Carreira</h2>
+          <h2>Era apenas uma brincadeira...</h2>
           <div className={styles.description}>
             <p>
               Extasiei-me com a possibilidade de redigir histórias no dia 5 de
@@ -19,12 +19,10 @@ const Books = () => {
             <p>
               Perdi-me em planos para aprimorar minhas habilidades, o que causou
               o fim deste mesmo livro e deu início ao segundo: Minha Frentista
-              de Cada Dia, que hoje conta com mais de 48 mil leituras. Em
-              seguida, entrei de cabeça na escrita criativa.
+              de Cada Dia, que hoje conta com mais de 48 mil leituras.
             </p>
             <p>
-              Atualmente sou escritora freelancer com 4 anos de experiência e
-              ofereço diversos serviços referente a escrita criativa.
+              Atualmente estou focada na minha área de atuação, no entanto, a escrita continua presente em meu dia-a-dia e estou aberta para pedidos de trabalhos, projetos ou seminários.
             </p>
           </div>
           <Link

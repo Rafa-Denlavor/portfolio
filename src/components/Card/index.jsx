@@ -20,8 +20,10 @@ const Card = ({
           );
         })}
       </div>
-      <h2>{projectName}</h2>
-      <p>{`Criado em: ${createdAt}`}</p>
+      <div>
+        <h2>{projectName}</h2>
+        <p className={styles.createdAt}>{`Criado em ${createdAt}`}</p>
+      </div>
       <p className={styles.description}>{description}</p>
       <div className={styles.buttons}>
         <Link

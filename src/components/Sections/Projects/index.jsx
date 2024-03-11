@@ -20,7 +20,7 @@ const Projects = () => {
           ]}
           projectName="GhostGabble"
           createdAt="2024"
-          description="Chat em tempo real para conversas globais. É anônimo e as mensagens são temporárias."
+          description="Plataforma que oferece uma experiência de bate-papo instantâneo, conectando pessoas de todo o mundo de forma anônima."
           websiteHref="https://ghostgabble.vercel.app/"
           githubHref="https://github.com/Rafa-Denlavor/ghostgabble"
         />
@@ -42,7 +42,7 @@ const Projects = () => {
           technologies={["Next.js", "React.js", "SASS", "Vercel"]}
           projectName="Saúde Alimentos"
           createdAt="2023"
-          description="Aplicação web para o restaurante Saúde Alimentos que valoriza a saúde e o sabor. O mesmo está localizado na cidade de São Vicente no Estado de São Paulo."
+          description="Aplicação web para o restaurante que valoriza a saúde e o sabor. O mesmo está localizado na cidade de São Vicente no Estado de São Paulo."
           websiteHref="https://saude-alimentos.vercel.app"
           githubHref="https://github.com/Rafa-Denlavor/saude-alimentos"
         />
@@ -56,7 +56,7 @@ const Projects = () => {
           ]}
           projectName="Pokédex"
           createdAt="2022"
-          description="Pokeagenda para visualização da 1° geração de Pokemon."
+          description="Aplicação web projetada para permitir que os entusiastas e fãs de Pokémon explorem os Pokémon da primeira geração de forma interativa."
           websiteHref="https://pokedex-denlavor.bohr.io/"
           githubHref="https://github.com/Rafa-Denlavor/pokedex"
         />

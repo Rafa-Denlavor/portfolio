@@ -9,7 +9,7 @@ const Functions = () => {
       <div className={styles.containerPositions}>
         <figure className={styles.positions}>
           <img src="images/writer.svg" alt="" />
-          <figcaption>UX Writer | Escritora</figcaption>
+          <figcaption>Ghostwriter</figcaption>
         </figure>
         <figure className={styles.positions}>
           <img src="images/developer.svg" alt="" />

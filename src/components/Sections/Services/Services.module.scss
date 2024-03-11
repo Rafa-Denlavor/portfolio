@@ -3,15 +3,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 64px 0;
+  padding: 50px 0;
   background-color: var(--gray-800);
-  height: calc(100vh - 121px);
+  min-height: calc(100vh - 121px);
 
   .cards {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 64px;
+    gap: 50px;
     padding-bottom: 64px;
     flex-wrap: wrap;
 
@@ -19,17 +19,21 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      justify-content: space-evenly;
-      border: 1px solid var(--primary-color);
-      padding: 32px;
-      width: 300px;
-      height: 350px;
+      justify-content: center;
+      padding: 15px;
+      width: 360px;
       text-align: center;
       box-shadow: var(--shadow);
       border-radius: 5px;
+      height: 500px;
+      gap: 30px;
 
       img {
-        width: 80px;
+        width: 220px;
+      }
+
+      p {
+        line-height: 25px;
       }
     }
   }
