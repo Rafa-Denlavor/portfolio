@@ -8,7 +8,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará uma amostra dos meus projeto
 - Frameworks e Bibliotecas: React, Node.js, Express.
 - Bancos de Dados: PostgreSQL, MongoDB.
 - Ferramentas de Controle de Versão: Git, GitHub, GitLab.
-- Deploy: Vercel, Bohr.io e Render.
+- Deploy: Vercel, Bohr.io, Render e GitHub Pages.
 - Testes: Jest.
 - Tecnologias: WebSockets, Web Workers, Fetch API, LocalStorage e SessionStorage AP. 
 

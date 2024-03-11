@@ -81,7 +81,7 @@ const Projects = () => {
           projectName="Nutrion"
           createdAt="2020"
           description="O Website inicialmente foi desenvolvido nos cursos de HTML e CSS ministrados pela Alura, porém, foram renovados com um novo design e layout."
-          websiteHref="https://rafa-denlavor.github.io/nutrion/"
+          websiteHref="https://nutrion-plataform.vercel.app/"
           githubHref="https://github.com/Rafa-Denlavor/nutrion"
         />
       </div>
