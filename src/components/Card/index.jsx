@@ -4,6 +4,7 @@ import Link from "../Link";
 const Card = ({
   technologies,
   projectName,
+  createdAt,
   description,
   websiteHref,
   githubHref,
@@ -20,8 +21,9 @@ const Card = ({
         })}
       </div>
       <h2>{projectName}</h2>
+      <p>{`Criado em: ${createdAt}`}</p>
       <p className={styles.description}>{description}</p>
-      <div>
+      <div className={styles.buttons}>
         <Link
           icon="fas fa-external-link-alt"
           href={websiteHref}

@@ -8,7 +8,8 @@
   color: var(--secondary-color);
   border-bottom-right-radius: 20px;
   // animation: showTitle 6s alternate;
-  width: 220px;
+  min-width: 220px;
+  max-width: 300px;
 }
 
 @keyframes showTitle {

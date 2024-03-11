@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <div>
           <p>Contrate</p>
-          <a href="$services" className={styles.link}>
+          <a href="#services" className={styles.link}>
             Serviços
           </a>
         </div>

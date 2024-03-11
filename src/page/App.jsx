@@ -4,6 +4,7 @@ import Books from "../components/Sections/Books";
 import Functions from "../components/Sections/Functions";
 import Projects from "../components/Sections/Projects";
 import Services from "../components/Sections/Services";
+import Performance from "../components/Sections/Performance";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Functions />
       <Projects />
+      {/*<Performance />*/}
       <Books />
       <Services />
       <Footer />
