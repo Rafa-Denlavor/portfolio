@@ -61,14 +61,6 @@ const Projects = () => {
           githubHref="https://github.com/Rafa-Denlavor/pokedex"
         />
         <Card
-          technologies={["HTML", "CSS", "BOOTSTRAP"]}
-          projectName="Fruta&Fruto"
-          createdAt="2020"
-          description="Website destinado para o compartilhamento de receitas saudáveis e deliciosas."
-          websiteHref="https://rafa-denlavor.github.io/fruta-e-fruto/"
-          githubHref="https://github.com/Rafa-Denlavor/fruta-e-fruto"
-        />
-        <Card
           technologies={["HTML", "CSS"]}
           projectName="Froya Barbershop"
           createdAt="2020"
