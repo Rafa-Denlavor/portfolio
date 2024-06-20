@@ -8,6 +8,20 @@ const Projects = () => {
     <section id="projects" className={styles.projectsWrapper}>
       <Title name="Projetos" />
       <div className={styles.projectsCard}>
+      <Card
+          technologies={[
+            "Typescript",
+            "React.js",
+            "SASS",
+            "Vite.js",
+            "Cypress"
+          ]}
+          projectName="Shinobi Keyboard"
+          createdAt="2024"
+          description="Mini game de digitação com efeitos sonoros, níveis de dificuldade, painel de classificação e muito mais."
+          websiteHref="https://shinobi-keyboard.vercel.app"
+          githubHref="https://github.com/Rafa-Denlavor/shinobi-keyboard"
+        />
         <Card
           technologies={[
             "HTML",
