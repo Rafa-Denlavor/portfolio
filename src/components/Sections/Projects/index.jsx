@@ -82,14 +82,6 @@ const Projects = () => {
           websiteHref="https://rafa-denlavor.github.io/froya-barbershop/"
           githubHref="https://github.com/Rafa-Denlavor/portfolio"
         />
-        <Card
-          technologies={["HTML", "CSS", "JAVASCRIPT"]}
-          projectName="Nutrion"
-          createdAt="2020"
-          description="O Website inicialmente foi desenvolvido nos cursos de HTML e CSS ministrados pela Alura, porém, foram renovados com um novo design e layout."
-          websiteHref="https://nutrion-plataform.vercel.app/"
-          githubHref="https://github.com/Rafa-Denlavor/nutrion"
-        />
       </div>
       <BackToTop href="#books" />
     </section>
